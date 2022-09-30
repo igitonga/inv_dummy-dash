@@ -1,0 +1,15 @@
+.spending-cont{
+    box-shadow: 0px 3px 6px #272D3B33;
+    border-radius: 20px;
+    padding: 0 2em;
+    margin-top: 1em;
+    .spending-text{
+        line-height: 3px;
+        .amt{
+            font-weight: bold;
+        }
+        .txt{
+            font-size: 10px;
+        }
+    }
+}

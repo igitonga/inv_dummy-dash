@@ -1,0 +1,19 @@
+.revenue-cont{
+    background: #FF007C;
+    line-height: 2px;
+    border-radius: 20px;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+    padding: 1em;
+    color: #fff;
+    .revenue-text{
+        .amount{
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .text{
+            font-size: 10px;
+            letter-spacing: 1px;
+        }
+    }
+}

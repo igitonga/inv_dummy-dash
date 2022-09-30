@@ -1,0 +1,29 @@
+.utilscard-cont{
+    color: #fff;
+    border-radius: 20px;
+    padding: .8em;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .content{
+        line-height: 3px;
+        img{
+            width: 20px;
+        }
+        .value{
+            font-weight: 700;
+            font-size: 20px;
+        }
+        .text{
+            font-size: 10px;
+        }
+    }
+    .icon-span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+}

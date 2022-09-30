@@ -1,0 +1,16 @@
+<svg id="Component_27_1" data-name="Component 27 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2011" data-name="Rectangle 2011" width="30" height="30" fill="#2951fe" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="wallet_3_" data-name="wallet (3)" transform="translate(0.69 1.366)">
+    <path id="Path_10234" data-name="Path 10234" d="M17.619,10.491H13.892a2.478,2.478,0,1,1,0-4.955h3.727" transform="translate(11 5.382)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.381" fill-rule="evenodd"/>
+    <line id="Line_1" data-name="Line 1" x1="0.287" transform="translate(22.93 13.336)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.381"/>
+    <path id="Path_10235" data-name="Path 10235" d="M7.847,0H20.772a7.975,7.975,0,0,1,7.847,8.1V19.172a7.975,7.975,0,0,1-7.847,8.1H7.847A7.975,7.975,0,0,1,0,19.172V8.1A7.975,7.975,0,0,1,7.847,0Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.381" fill-rule="evenodd"/>
+    <line id="Line_2" data-name="Line 2" x2="4.97" transform="translate(7.807 7.002)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.381"/>
+  </g>
+  <g id="Mask_Group_19" data-name="Mask Group 19" opacity="0" clip-path="url(#clip-path)">
+    <path id="wallet_1_" data-name="wallet (1)" d="M21.773,0C26.947,0,30,2.977,30,8.073H23.653v.052a5.268,5.268,0,0,0-5.333,5.2,5.268,5.268,0,0,0,5.333,5.2H30v.468C30,24.023,26.947,27,21.773,27H8.227C3.053,27,0,24.023,0,18.992H0V8.008C0,2.977,3.053,0,8.227,0H21.773ZM28.88,10.309A1.106,1.106,0,0,1,30,11.4h0v3.8a1.119,1.119,0,0,1-1.12,1.092H23.773A3.159,3.159,0,0,1,20.64,13.9a2.973,2.973,0,0,1,.65-2.478,3.137,3.137,0,0,1,2.364-1.11H28.88Zm-4.507,1.755H23.88a1.149,1.149,0,0,0-.81.319,1.091,1.091,0,0,0-.337.786A1.145,1.145,0,0,0,23.88,14.3h.493a1.118,1.118,0,1,0,0-2.236Zm-8.8-6.227H7.107a1.133,1.133,0,0,0-1.147,1.1A1.145,1.145,0,0,0,7.107,8.073h8.467a1.118,1.118,0,1,0,0-2.236Z" transform="translate(0 1.5)" fill="#2951fe"/>
+  </g>
+</svg>

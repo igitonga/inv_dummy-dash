@@ -1,0 +1,15 @@
+.performance-container {
+    background-color: #fff;
+    border-radius: 0.8rem;
+    border: 1px solid red;
+    p {
+      font-size: 1.9rem;
+      font-weight: 500;
+      position: relative;
+  
+      span {
+        position: relative;
+        top: 0.5rem;
+      }
+    }
+  }

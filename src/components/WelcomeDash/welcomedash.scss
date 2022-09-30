@@ -1,0 +1,29 @@
+.welcome-card{
+    padding: 0 2em;
+    padding-bottom: 1em;
+    font-weight: 600;
+    box-shadow: 0px 3px 6px #272D3B33;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    p{
+        font-size: 13px;
+        margin-top: -.7em;
+    }
+    ul{
+        padding: 0 ;
+        padding-left: 1em;
+        margin: 0;
+        margin-top: -.7em;
+        font-size: 13px;
+        li{
+            color: orange;
+            span{
+                color: black;
+            }
+        }
+    }
+    img{
+        width: 150px;
+    }
+}

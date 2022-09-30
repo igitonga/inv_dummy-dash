@@ -1,0 +1,21 @@
+.main{
+    height: 99%;
+    display: grid;
+    grid-template-columns: 68% 30%;
+    grid-column-gap: 2%;
+    padding: 0 1em;
+    .major{
+        .chini-cont{
+            display: grid;
+            grid-template-columns: 49% 49%;
+            grid-column-gap: 2%;
+        }
+    }
+    .analysis{
+        .cards_cont{
+            display: grid;
+            grid-template-columns: 49% 49%;
+            grid-gap: 2%;
+        }
+    }
+}
