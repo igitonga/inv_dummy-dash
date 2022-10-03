@@ -2,6 +2,8 @@ import React from "react";
 import "./sidebar.scss"
 import Face from "../../assets/me.png"
 import { Outlet } from "react-router-dom";
+import { BiBell, BiSearch, BiLogOut, BiChevronDown } from 'react-icons/bi';
+import ReactTooltip from 'react-tooltip';
 
 const Sidebar = () => {
     return(
@@ -42,12 +44,42 @@ const Sidebar = () => {
                     <img className="dp" src={Face} alt="" />
                     <div className="profile">
                         <p>Tafari Mwangi</p>
+                        <span className="active">
+                            <p>Active</p>
+                            <BiChevronDown />
+                        </span>
                     </div>
                 </div>
             </div>
             <div className="right-body">
                 <div className="topnav-cont">
-                
+                    <div className="topbar__search">
+                        <BiSearch />
+                        <input type='text' placeholder={'Search'} />
+                    </div>
+                    <div data-tip={'chat'}
+                        data-for={'chat'} className="notification">
+                        <BiBell />
+                        <span></span>
+                        <ReactTooltip
+                            id={'chat'}
+                            effect={'solid'}
+                            arrowColor={'#ffffff'}
+                            className="skills_tooltip">
+                            Notifications
+                        </ReactTooltip>
+                    </div>
+                    <div data-tip={'logout'}
+                        data-for={'logout'} className="notification">
+                        <BiLogOut />
+                        <ReactTooltip
+                            id={'logout'}
+                            effect={'solid'}
+                            arrowColor={'#ffffff'}
+                            className="skills_tooltip">
+                            Logout
+                        </ReactTooltip>
+                    </div>
                 </div>
                 <div className="content">
                     <Outlet />
