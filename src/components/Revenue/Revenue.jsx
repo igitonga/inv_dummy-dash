@@ -1,6 +1,7 @@
 import React from "react";
 import { LineChart, Line } from 'recharts';
 import "./revenue.scss"
+import {BsEyeFill} from "react-icons/bs"
 
 const data = [
             {name: 'Page A', uv: 400, pv: 2400, amt: 2400},
@@ -21,7 +22,10 @@ const Revenue = () => {
                 </LineChart>
             </div>
             <div className="revenue-text">
-                <p className="amount">+ KES 90,000</p>
+                <div className="show_balance">
+                    <p className="amount">+ KES 90,000</p>
+                    <BsEyeFill />
+                </div>
                 <p className="text">Revenue this month</p>
             </div>
         </div>
