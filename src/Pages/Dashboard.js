@@ -9,6 +9,7 @@ import Copy from "../assets/copy.svg"
 import PeopleTable from "../components/PeopleTable/PeopleTable";
 import Revenue from "../components/Revenue/Revenue";
 import Spending from "../components/Spending/Spending";
+import Performance from "../components/Performance/Performance"
 
 const Dashboard = () => {
     return(
@@ -17,6 +18,7 @@ const Dashboard = () => {
                 <h1>Dashboard</h1>
                 <WelcomeDashCard />
                 <CreditSales />
+                <Performance />
                 <div className="chini-cont">
                     <Spending />
                     <PeopleTable />

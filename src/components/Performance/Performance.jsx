@@ -7,15 +7,15 @@ const Performance = () => {
   const data = [
     {
       "name": "Jan",
-      "kes": 0
+      "kes": 13000
     },
     {
       "name": "Feb",
-      "kes": 0,
+      "kes": 120000,
     },
     {
       "name": "March",
-      "kes": 0,
+      "kes": 20000,
     },
     {
       "name": "Apr",
@@ -29,18 +29,42 @@ const Performance = () => {
       "name": "June",
       "kes": 239000,
     },
+    {
+      "name": "July",
+      "kes": 19000,
+    },
+    {
+      "name": "Aug",
+      "kes": 39000,
+    },
+    {
+      "name": "Sep",
+      "kes": 7000,
+    },
+    {
+      "name": "Oct",
+      "kes": 119000,
+    },
+    {
+      "name": "Nov",
+      "kes": 239000,
+    },
+    {
+      "name": "Dec",
+      "kes": 239000,
+    },
   
   ]
   
   return (
     <div className="performance-container">
-      <p>Product performance</p>
-      <div style={{height: "230px", width: "auto"}}>
+      <h3>Product performance</h3>
+      <div style={{height: "130px", width: "auto"}}>
         <ResponsiveContainer className={"bar"}>
           <BarChart data={data}>
             <XAxis dataKey="name" tickLine={false} />
             <Tooltip />
-            <Bar dataKey="kes" fill="#ffab00" />
+            <Bar dataKey="kes" fill="#2951FE" />
           </BarChart>
         </ResponsiveContainer>
       </div>
