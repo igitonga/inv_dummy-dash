@@ -1,6 +1,5 @@
 import React from "react";
 import "./utilscard.scss"
-import { BsArrowUpRight } from 'react-icons/bs';
 
 const UtilsCard = (props) => {
     return(
@@ -12,7 +11,7 @@ const UtilsCard = (props) => {
                 <p className="text">{props.text2}</p>
             </div>
             <di className="icon-span">
-                <BsArrowUpRight />
+                {props.bs}
             </di>
         </div>
     )

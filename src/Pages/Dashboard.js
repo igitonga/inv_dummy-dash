@@ -10,6 +10,7 @@ import PeopleTable from "../components/PeopleTable/PeopleTable";
 import Revenue from "../components/Revenue/Revenue";
 import Spending from "../components/Spending/Spending";
 import Performance from "../components/Performance/Performance"
+import { BsArrowUpRight, BsEyeFill } from 'react-icons/bs';
 
 const Dashboard = () => {
     return(
@@ -31,22 +32,26 @@ const Dashboard = () => {
                            value="12"
                            text1="Pending"
                            text2="Credit sales"
-                           bg="#2D62ED"/>
+                           bg="#2D62ED"
+                           bs={<BsArrowUpRight/>} />
                 <UtilsCard icon={Download}
                             value="400"
                             text1="My"
                             text2="Customers"
-                            bg="#FD9C29"/>
+                            bg="#FD9C29"
+                            bs={<BsArrowUpRight/>} />
                 <UtilsCard icon={Download}
                            value="32"
                            text1="Items"
                            text2="Out of stock"
-                           bg="#FE2929"/>
+                           bg="#FE2929"
+                           bs={<BsArrowUpRight/>} />
                 <UtilsCard icon={Wallet}
                             value="KES ****"
                             text1="Wallet"
                             text2="Balance"
-                            bg="#9329FE"/>
+                            bg="#9329FE"
+                            bs= {<BsEyeFill/>}/>
                 </div>
             </div>
         </div>
