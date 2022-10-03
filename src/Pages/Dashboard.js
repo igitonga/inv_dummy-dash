@@ -11,6 +11,7 @@ import Revenue from "../components/Revenue/Revenue";
 import Spending from "../components/Spending/Spending";
 import Performance from "../components/Performance/Performance"
 import { BsArrowUpRight, BsEyeFill } from 'react-icons/bs';
+import Inventory from "../components/Inventory/inventory";
 
 const Dashboard = () => {
     return(
@@ -28,31 +29,32 @@ const Dashboard = () => {
             <div className="analysis">
                 <Revenue />
                 <div className="cards_cont">
-                <UtilsCard icon={Copy}
-                           value="12"
-                           text1="Pending"
-                           text2="Credit sales"
-                           bg="#2D62ED"
-                           bs={<BsArrowUpRight/>} />
-                <UtilsCard icon={Download}
-                            value="400"
-                            text1="My"
-                            text2="Customers"
-                            bg="#FD9C29"
+                    <UtilsCard icon={Copy}
+                            value="12"
+                            text1="Pending"
+                            text2="Credit sales"
+                            bg="#2D62ED"
                             bs={<BsArrowUpRight/>} />
-                <UtilsCard icon={Download}
-                           value="32"
-                           text1="Items"
-                           text2="Out of stock"
-                           bg="#FE2929"
-                           bs={<BsArrowUpRight/>} />
-                <UtilsCard icon={Wallet}
-                            value="KES ****"
-                            text1="Wallet"
-                            text2="Balance"
-                            bg="#9329FE"
-                            bs= {<BsEyeFill/>}/>
+                    <UtilsCard icon={Download}
+                                value="400"
+                                text1="My"
+                                text2="Customers"
+                                bg="#FD9C29"
+                                bs={<BsArrowUpRight/>} />
+                    <UtilsCard icon={Download}
+                            value="32"
+                            text1="Items"
+                            text2="Out of stock"
+                            bg="#FE2929"
+                            bs={<BsArrowUpRight/>} />
+                    <UtilsCard icon={Wallet}
+                                value="KES ****"
+                                text1="Wallet"
+                                text2="Balance"
+                                bg="#9329FE"
+                                bs= {<BsEyeFill/>}/>
                 </div>
+                <Inventory />
             </div>
         </div>
     )
