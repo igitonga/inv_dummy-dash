@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Bar, BarChart, ResponsiveContainer, Tooltip, XAxis} from 'recharts';
 import './performance.scss'
 
@@ -55,10 +55,21 @@ const Performance = () => {
     },
   
   ]
+
+  const tabs = ['Best performing product', 'Average performing product', 'Worst performing product'];
+  const [active, setActive] = useState(tabs[0]);
   
   return (
     <div className="performance-container">
       <h3>Product performance</h3>
+      <div className="tabs">
+        {
+          tabs.map(tab => (
+            <h5 key={tab} onClick={() => setActive(tab)}
+                className={`${active === tab ? "tabs_active" : ''}`}>{tab}</h5>
+          ))
+        }
+      </div>
       <div style={{height: "130px", width: "auto"}}>
         <ResponsiveContainer className={"bar"}>
           <BarChart data={data}>
